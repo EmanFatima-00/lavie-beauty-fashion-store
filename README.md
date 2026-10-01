@@ -21,7 +21,4 @@ Made by girls, for girls, only girls.
 ## Tech
 HTML, CSS, JS
 
-## Live Link
-https://your-link.netlify.app
-
-© 2026 LAVIÈ - Only for girly girls 💖
+© 2026 LAVIÈ - Only for girly girls 
