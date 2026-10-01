@@ -1,0 +1,25 @@
+:root{--pink:#ff8fab;--blush:#fff0f3;--gold:#d4a373;--dark:#2b2b2b;--light:#fffbfa}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:var(--light);color:var(--dark);line-height:1.6}
+h1,h2,h3{font-family:'Sora',sans-serif}
+.announcement{background:#2b2b2b;color:#fff;text-align:center;padding:8px;font-size:11px;letter-spacing:1px}
+.announcement span{color:var(--pink)}
+nav{position:sticky;top:0;z-index:100;background:rgba(255,251,250,0.92);backdrop-filter:blur(12px);border-bottom:1px solid #ffd6de;padding:14px 5%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;font-size:22px}.logo span{color:var(--pink)}
+.nav-links{display:flex;gap:26px;list-style:none}
+.nav-links a{text-decoration:none;color:#2b2b2b;font-weight:500;font-size:14px}
+.nav-links a.active{color:var(--pink);border-bottom:2px solid var(--pink)}
+.btn{background:var(--pink);color:#fff;padding:11px 20px;border-radius:30px;text-decoration:none;font-weight:600;border:none;cursor:pointer;display:inline-block}
+.hero{padding:80px 5%;display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center;background:linear-gradient(180deg,var(--blush),var(--light))}
+.hero h1{font-size:52px;line-height:1.1}.hero h1 i{font-family:'Playfair Display',serif;font-style:italic;color:var(--pink);font-weight:400}
+.badge{background:var(--blush);color:var(--pink);padding:6px 14px;border-radius:20px;font-size:11px;font-weight:700}
+.categories{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:40px 5%}
+.cat{border-radius:20px;padding:28px;height:270px;display:flex;flex-direction:column;justify-content:flex-end;color:#fff;position:relative}
+.cat-makeup{background:linear-gradient(135deg,#ff8fab,#ffb3c6)}.cat-jewel{background:linear-gradient(135deg,#d4a373,#f2cc8f)}.cat-cloth{background:linear-gradient(135deg,#c8b6ff,#e0aaff)}
+.section{padding:70px 5%}.section-head{text-align:center;max-width:600px;margin:0 auto 40px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border-radius:18px;padding:18px;border:1px solid #ffe0e6}
+.girly-line{font-family:'Playfair Display',serif;font-style:italic;color:var(--pink);font-size:20px;text-align:center;margin:20px 0}
+.footer{background:#2b2b2b;color:#fff;padding:60px 5% 30px;margin-top:60px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:30px}
+@media(max-width:900px){.hero,.categories,.grid3,.footer-grid{grid-template-columns:1fr}.hero h1{font-size:34px}.nav-links{display:none}}
